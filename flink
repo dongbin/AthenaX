@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2019-11-11T11:12:53.453Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.70 Safari/537.36" etag="bt0oFIORIW8NwCAQ7GKU" version="12.2.3" type="github" pages="1">
+<mxfile host="www.draw.io" modified="2019-11-11T11:17:30.109Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.70 Safari/537.36" etag="BYv1hMyPiNOwJfXvI2UQ" version="12.2.3" type="github" pages="1">
   <diagram id="Hxb9j5YQv-d9O1gKm9D4" name="Page-1">
     <mxGraphModel dx="786" dy="416" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -112,10 +112,22 @@
           <mxGeometry x="659" y="543" width="110" height="65" as="geometry"/>
         </mxCell>
         <mxCell id="w1rl6gFuqDlDAqSRs8yB-36" value="编写DML逻辑" style="shape=ext;rounded=1;html=1;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="540" y="640" width="90" height="65" as="geometry"/>
+          <mxGeometry x="810" y="640" width="90" height="65" as="geometry"/>
         </mxCell>
         <mxCell id="w1rl6gFuqDlDAqSRs8yB-37" value="编写DDL" style="shape=ext;rounded=1;html=1;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="669" y="640" width="90" height="65" as="geometry"/>
+          <mxGeometry x="810" y="543" width="90" height="65" as="geometry"/>
+        </mxCell>
+        <mxCell id="w1rl6gFuqDlDAqSRs8yB-38" value="编译提交JobGraph" style="shape=ext;rounded=1;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="674" y="640" width="80" height="65" as="geometry"/>
+        </mxCell>
+        <mxCell id="w1rl6gFuqDlDAqSRs8yB-40" value="Job 上线" style="shape=ext;rounded=1;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="423.5" y="640" width="90" height="65" as="geometry"/>
+        </mxCell>
+        <mxCell id="w1rl6gFuqDlDAqSRs8yB-41" value="KSQL IDE发送测试消息做测试" style="shape=ext;rounded=1;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="537" y="640" width="90" height="65" as="geometry"/>
+        </mxCell>
+        <mxCell id="w1rl6gFuqDlDAqSRs8yB-42" value="订阅Job报警" style="shape=ext;rounded=1;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="310" y="640" width="90" height="65" as="geometry"/>
         </mxCell>
       </root>
     </mxGraphModel>
