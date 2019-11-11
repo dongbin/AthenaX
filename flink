@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2019-11-11T08:07:45.402Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.70 Safari/537.36" etag="a9q5WTJTWVxCTTrvKhr3" version="12.2.3" type="github" pages="1">
+<mxfile host="www.draw.io" modified="2019-11-11T11:12:53.453Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.70 Safari/537.36" etag="bt0oFIORIW8NwCAQ7GKU" version="12.2.3" type="github" pages="1">
   <diagram id="Hxb9j5YQv-d9O1gKm9D4" name="Page-1">
     <mxGraphModel dx="786" dy="416" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -69,6 +69,53 @@
         </mxCell>
         <mxCell id="w1rl6gFuqDlDAqSRs8yB-21" value="Monitor &amp;amp; Alert" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="280" y="299" width="200" height="31" as="geometry"/>
+        </mxCell>
+        <mxCell id="w1rl6gFuqDlDAqSRs8yB-22" value="申请Yarn队列" style="shape=ext;rounded=1;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="310" y="542.5" width="90" height="65" as="geometry"/>
+        </mxCell>
+        <mxCell id="w1rl6gFuqDlDAqSRs8yB-23" value="处理Binlog" style="shape=mxgraph.bpmn.shape;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=rhombusPerimeter;background=gateway;outlineConnect=0;outline=none;symbol=exclusiveGw;" vertex="1" parent="1">
+          <mxGeometry x="430" y="550" width="50" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="w1rl6gFuqDlDAqSRs8yB-25" value="申请Kafka Topic&lt;br&gt;创建Maxwell Job" style="shape=ext;rounded=1;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="512" y="543" width="115" height="65" as="geometry"/>
+        </mxCell>
+        <mxCell id="w1rl6gFuqDlDAqSRs8yB-26" value="" style="endArrow=block;endFill=1;endSize=6;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="w1rl6gFuqDlDAqSRs8yB-22" target="w1rl6gFuqDlDAqSRs8yB-23">
+          <mxGeometry width="100" relative="1" as="geometry">
+            <mxPoint x="360" y="660" as="sourcePoint"/>
+            <mxPoint x="330" y="575" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="w1rl6gFuqDlDAqSRs8yB-27" value="" style="endArrow=block;endFill=1;endSize=6;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="w1rl6gFuqDlDAqSRs8yB-23" target="w1rl6gFuqDlDAqSRs8yB-25">
+          <mxGeometry width="100" relative="1" as="geometry">
+            <mxPoint x="460" y="580" as="sourcePoint"/>
+            <mxPoint x="560" y="580" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="w1rl6gFuqDlDAqSRs8yB-31" value="" style="startArrow=diamondThin;startFill=0;startSize=14;endArrow=block;endFill=1;endSize=6;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="w1rl6gFuqDlDAqSRs8yB-23" target="w1rl6gFuqDlDAqSRs8yB-34">
+          <mxGeometry width="100" relative="1" as="geometry">
+            <mxPoint x="460" y="650" as="sourcePoint"/>
+            <mxPoint x="684.4318181818182" y="551.5681818181819" as="targetPoint"/>
+            <Array as="points">
+              <mxPoint x="455" y="490"/>
+              <mxPoint x="580" y="490"/>
+              <mxPoint x="714" y="490"/>
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="w1rl6gFuqDlDAqSRs8yB-32" value="" style="endArrow=block;endFill=1;endSize=6;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="w1rl6gFuqDlDAqSRs8yB-25">
+          <mxGeometry width="100" relative="1" as="geometry">
+            <mxPoint x="650" y="540" as="sourcePoint"/>
+            <mxPoint x="660" y="576" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="w1rl6gFuqDlDAqSRs8yB-34" value="创建 Yarn Session" style="shape=ext;rounded=1;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="659" y="543" width="110" height="65" as="geometry"/>
+        </mxCell>
+        <mxCell id="w1rl6gFuqDlDAqSRs8yB-36" value="编写DML逻辑" style="shape=ext;rounded=1;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="540" y="640" width="90" height="65" as="geometry"/>
+        </mxCell>
+        <mxCell id="w1rl6gFuqDlDAqSRs8yB-37" value="编写DDL" style="shape=ext;rounded=1;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="669" y="640" width="90" height="65" as="geometry"/>
         </mxCell>
       </root>
     </mxGraphModel>
