@@ -1,1 +1,73 @@
-<mxfile host="www.draw.io" modified="2019-11-11T06:48:53.788Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.70 Safari/537.36" version="12.2.3" etag="5MQ5-nFMcPOwsWYheZY8" type="github"><diagram id="Hxb9j5YQv-d9O1gKm9D4">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="www.draw.io" modified="2019-11-11T07:21:59.340Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.70 Safari/537.36" etag="a-NpNW-fHcqsniHq9CAG" version="12.2.3" type="github" pages="1">
+  <diagram id="Hxb9j5YQv-d9O1gKm9D4" name="Page-1">
+    <mxGraphModel dx="786" dy="416" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0"/>
+        <mxCell id="1" parent="0"/>
+        <mxCell id="w1rl6gFuqDlDAqSRs8yB-1" value="Streaming IDE Web Frontend" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="280" y="80" width="240" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="w1rl6gFuqDlDAqSRs8yB-2" value="KSQL IDE&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="280" y="140" width="120" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="w1rl6gFuqDlDAqSRs8yB-3" value="" style="endArrow=none;dashed=1;html=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="225" y="129.5" as="sourcePoint"/>
+            <mxPoint x="575" y="129.5" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="w1rl6gFuqDlDAqSRs8yB-4" value="Flink SQL Runner" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="410" y="140" width="110" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="w1rl6gFuqDlDAqSRs8yB-5" value="Input&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="140" y="140" width="120" height="180" as="geometry"/>
+        </mxCell>
+        <mxCell id="w1rl6gFuqDlDAqSRs8yB-6" value="Kafka" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="150" y="180" width="100" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="w1rl6gFuqDlDAqSRs8yB-7" value="Mysql" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="150" y="220" width="100" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="w1rl6gFuqDlDAqSRs8yB-8" value="Output&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="540" y="140" width="120" height="180" as="geometry"/>
+        </mxCell>
+        <mxCell id="w1rl6gFuqDlDAqSRs8yB-9" value="Kafka" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="550" y="180" width="100" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="w1rl6gFuqDlDAqSRs8yB-10" value="Mysql" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="550" y="220" width="100" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="w1rl6gFuqDlDAqSRs8yB-11" value="ElasticSearch" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="550" y="260" width="100" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="w1rl6gFuqDlDAqSRs8yB-12" value="KSQL Server" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="380" y="230" width="100" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="w1rl6gFuqDlDAqSRs8yB-13" value="Yarn / HDFS Cluster" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="312" width="240" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="w1rl6gFuqDlDAqSRs8yB-14" value="Kafka Connect" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="230" width="90" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="w1rl6gFuqDlDAqSRs8yB-18" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="w1rl6gFuqDlDAqSRs8yB-2" target="w1rl6gFuqDlDAqSRs8yB-14">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="260" as="sourcePoint"/>
+            <mxPoint x="440" y="210" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="w1rl6gFuqDlDAqSRs8yB-19" value="" style="endArrow=classic;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="w1rl6gFuqDlDAqSRs8yB-2" target="w1rl6gFuqDlDAqSRs8yB-12">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="260" as="sourcePoint"/>
+            <mxPoint x="440" y="210" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="w1rl6gFuqDlDAqSRs8yB-20" value="" style="endArrow=classic;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0.888;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="w1rl6gFuqDlDAqSRs8yB-4" target="w1rl6gFuqDlDAqSRs8yB-13">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="480" y="310" as="sourcePoint"/>
+            <mxPoint x="550.7106781186548" y="260" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
